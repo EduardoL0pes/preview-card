@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 992px) {
+    
+    section#container {
+        width: 990px;
+        height: 500px;
+    }
+
+    section#container > div.image {
+        background-image: url(../imagens/image-product-desktop.jpg);
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#container > div.info {
+        float: right;
+        width: 50%;
+       
+    }
+
+    section#container > div.info > h2 {
+        font-size: 1.3em;
+        margin-bottom: 25px;
+    }
+
+    div.info > h1 {
+        font-size: 2em;
+        margin-bottom: 25px;
+    }
+
+    div.info > p {
+        margin-bottom: 25px;
+    }
+
+    section#container > div.sale {
+        margin-bottom: 25px;
+    }
+
+    p.final {
+        display: block;
+        position: absolute;
+        top: 89.7%;
+        left: 50%;
+        transform: translate(-50%, 100%);
+        text-align: center;
+    }
+
+}

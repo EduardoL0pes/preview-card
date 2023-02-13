@@ -4,8 +4,8 @@
 @media screen and (min-width: 992px) {
     
     section#container {
-        width: 990px;
-        height: 500px;
+        width: 600px;
+        height: 400px;
     }
 
     section#container > div.image {
@@ -27,7 +27,7 @@
     }
 
     div.info > h1 {
-        font-size: 2em;
+        font-size: 1.7em;
         margin-bottom: 25px;
     }
 

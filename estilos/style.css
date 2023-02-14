@@ -56,15 +56,18 @@ section#container > div.info {
     padding: 15px;
     margin-top: 5px;
 }
-section#container > div.info > h2 {
-    font: lighter 1.1em 'Montserrat', sans-serif;
-    color: var(--Dark-grayish-blue);
-    margin-bottom: 10px;
-}
 
 div.info > h1 {
     font-family: 'Fraunces', serif;
     font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+div.info > h2 {
+    color: var(--Dark-grayish-blue);
+    font: lighter 0.8em 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
     margin-bottom: 10px;
 }
 

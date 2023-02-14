@@ -21,8 +21,7 @@
        
     }
 
-    section#container > div.info > h2 {
-        font-size: 1.3em;
+    section#container > div.info > h2 {    
         margin-bottom: 25px;
     }
 
